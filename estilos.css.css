@@ -1,0 +1,43 @@
+
+body{
+font-family: Arial,melvetica,sans-serif;
+margin: 0;
+padding: 0;
+background-color: rgba(59, 207, 1, 0.863);
+
+}
+
+header {
+background-color: rgb(150, 0, 125);
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: bisque;
+}
+
+main{
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1();
+}
